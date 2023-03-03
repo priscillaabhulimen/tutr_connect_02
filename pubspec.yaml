@@ -1,0 +1,50 @@
+name: tutr_connect_02
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  oktoast:
+  provider:
+  shared_preferences:
+  flutter_secure_storage:
+  http:
+  flutter_launcher_icons:
+  google_fonts:
+  flutter_native_splash:
+  flutter_spinkit:
+  another_flushbar:
+  flutter_svg:
+  flutter_overlay_loader:
+  url_launcher:
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+#flutter_icons:
+#  ios: true
+#  android: true
+#  image_path_ios: 'assets/images/logo_transparent.png'
+#  image_path_android: 'assets/images/logo_transparent.png'
+
+flutter:
+
+  uses-material-design: true
+
+#  assets:
+#    - assets/images/
+#    - assets/images/logos/
+#    - assets/images/icons/
+#    - assets/images/navbar_icons/active/
+#    - assets/images/navbar_icons/inactive/
