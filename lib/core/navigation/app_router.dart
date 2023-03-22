@@ -27,10 +27,7 @@ class AppRouter extends RouterDelegate
       key: navigatorKey,
       onPopPage: _handlePopPage,
       pages: [
-        /* TODO: add conditional pages
-        For example:
-         if (!appStateManager.isInitialised) SplashView.page(),
-        */
+        if (!appStateManager.isInitialised) SplashView.page(),
       ],
     );
   }

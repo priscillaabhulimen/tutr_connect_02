@@ -25,6 +25,7 @@ dependencies:
   flutter_overlay_loader:
   url_launcher:
   get_it:
+  animated_text_kit:
 
 dev_dependencies:
   flutter_test:
